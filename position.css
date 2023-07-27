@@ -1,0 +1,63 @@
+.sta{
+    padding:30px;
+    border:1px solid blue;
+}
+.static{
+    position:static;
+    border:1px solid yellow;
+    padding: 10px;
+    background-color: green;
+    /* top:10px;
+    left:50px;           -not affected */
+}
+.static:hover{
+    background-color: pink;
+}
+.rel{
+    padding:30px;
+    border:1px solid blue;
+}
+.relative{
+    position: relative;
+    left:10px;
+    top:20px;
+    padding: 50px;
+    border: 1px solid yellow;
+    background-color: green;
+    transition: transform 0.6s ease-in-out;
+    box-shadow: -27px 32px 72px -7px rgba(212,74,212,0.65);
+}
+.relative:hover{
+    background-color: pink;
+    transform: scale(1.1);
+
+}
+.relative .absolute{
+    position:absolute;
+    top:90px;
+    left:100px;
+    padding:5px;
+    border: 1px solid yellow;
+
+}
+.fix{
+    padding:30px;
+    border:1px solid blue;
+}
+.fixed{
+    bottom:0px;
+    right:0px;
+    position: fixed;
+    width:500px;
+    background-color: green;
+}
+/* .sti{
+    padding:30px;
+    border:1px solid blue;
+} */
+.sticky{
+    position: sticky;
+    top:0;
+    background-color: green;
+    border:1px solid yellow;
+}
